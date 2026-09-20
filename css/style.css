@@ -105,9 +105,10 @@
       font-weight:600;
       letter-spacing:.03em;
       padding:5px 10px;
-      border:1px solid var(--line);
+      background:#fff;
+      border:1px solid var(--accent);
       border-radius:999px;
-      color:var(--ink-soft);
+      color:var(--ink);
     }
     .icon-btn{
       width:34px;height:34px;
@@ -281,7 +282,7 @@
     /* ============ COMPARE TABLE ============ */
     .thumbs{display:flex;gap:8px;margin-bottom:18px;}
     .thumb{
-      flex:1;
+      flex:0 0 calc(33.333% - 5.33px);
       aspect-ratio:1/1;
       border-radius:var(--radius-sm);
       border:1.4px solid var(--line);
