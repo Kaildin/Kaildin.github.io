@@ -108,7 +108,7 @@
       background:#fff;
       border:1px solid var(--accent);
       border-radius:999px;
-      color:var(--ink);
+      color:#000;
     }
     .icon-btn{
       width:34px;height:34px;
