@@ -371,7 +371,7 @@
       overflow:hidden;
       background:var(--bg);
     }
-    .prop-card img{width:100%;height:100%;object-fit:cover;display:block;}
+    .prop-card .ph{aspect-ratio:4/3;border:none;border-bottom:1px solid var(--line);}
     .prop-body{padding:14px 16px 18px;}
     .prop-tag{
       display:inline-block;
